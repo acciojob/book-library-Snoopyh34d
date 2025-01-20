@@ -87,6 +87,14 @@ body {
     </div>
   </div>
 </div>
-
+<script>const price_background = 'rgb(46, 204, 113)';
+const color_white = 'rgb(255, 255, 255)';
+cy.get('.book').within(() => {
+  cy.get('.book-price').should('have.css', 'background-color', price_background);
+  // Assuming border-radius is applied to the same element with price background
+  cy.get('.book-price').should('have.css', 'border-radius');
+  cy.get('p').should('have.css', 'color').and('include', 'rgb(119, 119, 119)'); // Check author color
+});</script>
 </body>
+	
 </html>
