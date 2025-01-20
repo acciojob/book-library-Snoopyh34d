@@ -35,7 +35,7 @@ h1{
   /* price-block color #2ecc71 */
 }
 .book-details{
-  background-color:rgb(46, 204, 113) ;
+  /* background-color:rgb(46, 204, 113) ; */
 }
 h2{
   margin: 10px;
@@ -48,7 +48,7 @@ h2{
 .price-block{
   margin: 10px;
   background-color: rgb(46, 204, 113);
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 5px;
 }
