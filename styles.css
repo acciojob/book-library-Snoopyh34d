@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column; /* Stacks image and details */
   align-items: center;
-  background-color: #ffffff;
+  background-color: #777777;
   margin: 20px auto;
   padding: 15px;
   border-radius: 8px;
@@ -40,6 +40,7 @@ body {
   height: 220px;
   border-radius: 4px;
   object-fit: cover;
+	ba
 }
 
 /* Book Details */
@@ -48,14 +49,14 @@ body {
   text-align: center;
 }
 
-.book-details h3 {
+.book-details h2 {
   font-size: 18px;
   margin: 5px 0;
 }
 
 .book-details p {
   font-size: 14px;
-  color: #777777; /* Author color */
+  color: rgb(119, 119, 119); /* Author color */
   margin: 5px 0;
 }
 
@@ -63,8 +64,8 @@ body {
 .price-block {
   margin-top: 10px;
   padding: 8px 12px;
-  background-color: #2ecc71; /* Price-block color */
-  color: #ffffff;
+  background-color: rgb(46, 204, 113); /* Price-block color */
+  color: rgb(255, 255, 255);
   font-size: 14px;
   border-radius: 4px;
 }
