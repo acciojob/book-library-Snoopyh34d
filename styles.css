@@ -1,58 +1,50 @@
-* {
-  padding: 0;
-  margin: 0;
-  font-family: Arial, sans-serif;
+*{
+  padding: 0;margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
+/* 
+Background color: #ffffff; Other CSS styles as required
+Author color: #777777; Price-block color: #2ecc71 */
 
-body {
+body{
   background-color: #f8f8f8;
+  text-align: center;
+
+}
+.book-library{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
-}
-
-h1 {
-  margin: 50px;
-}
-
-.book-library {
   background-color: #ffffff;
+}
+
+.book{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
-}
-
-.book {
-  margin: 10px;
-  border-radius: 10px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.book-detail {
-  background-color: rgb(46, 204, 113); /* Fix for the background color */
+  margin: 20px;
   padding: 10px;
+  background-color: #f8f8f8;
 }
 
-.title {
+.book-title{
   margin: 10px;
+  color: black;
 }
 
-.author {
-  margin: 10px;
+.book-author{
   color: #777777;
 }
-
-.book-details {
+.book-detail{
+  background-color: #2ecc71;
+  color: #ffffff;
   margin: 10px;
-  background-color: rgb(46, 204, 113);
-  color: rgb(255, 255, 255);
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 5px;
+}
+
+img{
+  width: 300px;
 }
