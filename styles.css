@@ -1,60 +1,58 @@
-
-/* Your CSS Code here. */
-
-*{
-	padding:0;
-	margin:0;
-	font-family:Arial;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 
-body{
+body {
   background-color: #f8f8f8;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
-h1{
+
+h1 {
   margin: 50px;
 }
 
-.book-library{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.book-library {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
-.book{
+.book {
   margin: 10px;
   border-radius: 10px;
-  width: 100vw;
+  width: 100%;
   display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  /* author color #777777 */
-  /* price-block color #2ecc71 */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.book-details{
-  /* background-color:rgb(46, 204, 113) ; */
+
+.book-details {
+  background-color: rgb(46, 204, 113); /* Fix for the background color */
+  padding: 10px;
 }
-title{
+
+.title {
   margin: 10px;
 }
-.author{
+
+.author {
   margin: 10px;
   color: #777777;
 }
 
-.price-block{
+.price-block {
   margin: 10px;
   background-color: rgb(46, 204, 113);
   color: rgb(255, 255, 255);
   padding: 20px;
   border-radius: 5px;
 }
-
-
-
-
