@@ -4,40 +4,105 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Book Library</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Library container */
+    .book-library {
+      max-width: 800px;
+      margin: 20px auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      padding: 20px;
+    }
+
+    /* Title */
+    .book-library h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    /* Book block */
+    .book {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px;
+      margin-bottom: 15px;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .book img {
+      width: 120px;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    /* Book details */
+    .book-details {
+      flex: 1;
+      margin-left: 15px;
+    }
+
+    .book-details h2 {
+      font-size: 18px;
+      margin: 0;
+      color: #333;
+    }
+
+    .book-details p {
+      margin: 5px 0;
+      color: #777777; /* Author's color */
+    }
+
+    /* Price block */
+    .price-block {
+      background-color: rgb(46, 204, 113); /* Green background */
+      color: rgb(255, 255, 255); /* White text */
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
   <div class="book-library">
     <h1>Book Library</h1>
-    
-    <!-- Book 1 -->
     <div class="book">
-      <img src="https://via.placeholder.com/150x220" alt="Spy in the Amber">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/81eB+7+CkUL.jpg" alt="Spy in the Amber">
       <div class="book-details">
-        <h3>Spy in the Amber</h3>
-        <p class="author">By Manohar Malgonkar</p>
-        <div class="price-block">Rs. 299</div>
+        <h2>SPY IN THE AMBER</h2>
+        <p>By Manohar Malgonkar</p>
       </div>
+      <div class="price-block">Rs. 299</div>
     </div>
-
-    <!-- Book 2 -->
     <div class="book">
-      <img src="https://via.placeholder.com/150x220" alt="Sacred Games">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/51Dl6lXXesL._SX322_BO1,204,203,200_.jpg" alt="Sacred Games">
       <div class="book-details">
-        <h3>Sacred Games</h3>
-        <p class="author">By Vikram Chandra</p>
-        <div class="price-block">Rs. 199</div>
+        <h2>Sacred Games</h2>
+        <p>By Vikram Chandra</p>
       </div>
+      <div class="price-block">Rs. 199</div>
     </div>
-
-    <!-- Book 3 -->
     <div class="book">
-      <img src="https://via.placeholder.com/150x220" alt="Byomkesh Bakshi">
+      <img src="https://images-na.ssl-images-amazon.com/images/I/71l8kdzWziL.jpg" alt="Byomkesh Bakshi">
       <div class="book-details">
-        <h3>Byomkesh Bakshi</h3>
-        <p class="author">By Sharadindu Bandyopadhyay</p>
-        <div class="price-block">Rs. 249</div>
+        <h2>BYOMKESH BAKSHI</h2>
+        <p>By Sharadindu Bandyopadhyay</p>
       </div>
+      <div class="price-block">Rs. 249</div>
     </div>
   </div>
 </body>
